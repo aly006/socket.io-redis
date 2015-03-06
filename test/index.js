@@ -4,7 +4,7 @@ var ioc = require('socket.io-client');
 var expect = require('expect.js');
 var async = require('async');
 var redis = require('redis');
-var redisAdapter = require('../');
+var redisAdapter = require('../node');
 
 
 function client(srv, nsp, opts){

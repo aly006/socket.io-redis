@@ -10,6 +10,7 @@
     "test": "mocha"
   },
   "dependencies": {
+    "6to5": "3.5.3",
     "debug": "0.7.4",
     "uid2": "0.0.3",
     "redis": "0.10.1",
